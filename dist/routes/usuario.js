@@ -134,4 +134,11 @@ userRoutes.get('/', [autenticacion_1.verificaToken], function (req, res) {
         usuario: usuario
     });
 });
+userRoutes.get('/hola', function (req, res) {
+    console.log("si entra")
+    res.json({
+        ok: true,
+        mensaje: "escucha correctamente"
+    });
+});
 exports.default = userRoutes;
