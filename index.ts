@@ -41,6 +41,7 @@ mongoose.connect('mongodb+srv://alex:alexagnus@cluster0.25r2w.mongodb.net/seguri
     if (err) throw err;
 
     console.log('Base de datos ONILINE');
+    console.log('Datos del root');
 })
 
 //Levantar Express
