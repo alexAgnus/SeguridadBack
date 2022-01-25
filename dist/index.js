@@ -27,6 +27,7 @@ mongoose_1.default.connect('mongodb+srv://alex:alexagnus@cluster0.25r2w.mongodb.
     if (err)
         throw err;
     console.log('Base de datos ONILINE');
+    console.log('Desde dist');
 });
 //Levantar Express
 server.start(function () {
