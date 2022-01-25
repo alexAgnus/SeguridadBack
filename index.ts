@@ -38,11 +38,3 @@ mongoose.connect('mongodb+srv://alex:alexagnus@cluster0.25r2w.mongodb.net/seguri
 server.start(() => {
     console.log(`Servidor correindo en puerto ${server.port}`) ;
 });
-
-///ruta de prueba
-server.app.get('/', (req, res) => {
-    return res.status(200).json({
-        ok: true,
-        mensaje: 'Escuchando correctamente'
-    });
-});

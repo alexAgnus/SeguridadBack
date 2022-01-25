@@ -1,2 +1,0 @@
-# SeguridadBack
-primeros pasos
